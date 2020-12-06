@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>花式转换——扑克牌</title>
+    <style type="text/css" media="screen">
+        *{
+            padding:0;
+            margin:0;
+        }
+         .box{
+            width: 200px;
+            height: 300px;
+            margin: 50px auto;
+            border-radius: 10px;
+            position:relative;
+        }
+        .box img{
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            border-radius: 10px;
+            transition: all 1s;
+            transform-origin: bottom center;
+        }
+
+        .box:hover img:nth-child(1) {transform: rotate(-45deg);}
+        .box:hover img:nth-child(2) {transform: rotate(-35deg);}
+        .box:hover img:nth-child(3) {transform: rotate(-25deg);}
+        .box:hover img:nth-child(4) {transform: rotate(-15deg);}
+        .box:hover img:nth-child(5) {transform: rotate(0deg);}
+        .box:hover img:nth-child(6) {transform: rotate(15deg);}
+        .box:hover img:nth-child(7) {transform: rotate(25deg);}
+        .box:hover img:nth-child(8) {transform: rotate(35deg);}
+        .box:hover img:nth-child(9) {transform: rotate(45deg);}
+        .box:hover img:nth-child(10) {transform: rotate(55deg);}
+        .box:hover img:nth-child(11) {transform: rotate(65deg);}
+        .box:hover img:nth-child(12) {transform: rotate(75deg);}
+        .box:hover img:nth-child(13) {transform: rotate(85deg);}
+        .box:hover img:nth-child(14) {transform: rotate(95deg);}
+        .box:hover img:nth-child(15) {transform: rotate(105deg);}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <img src="images/4.jpg" alt="">
+        <img src="images/5.jpg" alt="">
+        <img src="images/6.jpg" alt="">
+        <img src="images/7.jpg" alt="">
+        <img src="images/8.jpg" alt="">
+        <img src="images/9.jpg" alt="">
+        <img src="images/10.jpg" alt="">
+        <img src="images/11.jpg" alt="">
+        <img src="images/12.jpg" alt="">
+        <img src="images/13.jpg" alt="">
+        <img src="images/j.jpg" alt="">
+        <img src="images/j2.jpg" alt="">
+    </.box>
+</body>
+</html>
